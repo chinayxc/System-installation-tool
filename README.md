@@ -3,7 +3,7 @@ Something about scripts
 
 ## Fork changes
 <ul>
-<li>Modify the default file format of the 771 line 784 line RAID array to XFS</li>
+<li>Modify the default file format of the 924 line 937 line RAID array to XFS</li>
 </ul>
 
 ## default usage methods
