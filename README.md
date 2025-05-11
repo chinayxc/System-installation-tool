@@ -1,5 +1,20 @@
 # Tools
 Something about scripts
+
+## Fork changes
+<ul>
+<li>Modify the default file format of the 771 line 784 line RAID array to XFS</li>
+</ul>
+
+## default usage methods
+Change the value inside the quotation marks to your own, pwd is the password, port is the ssh port, partition is the partition table selection, optional mbr or gpt:
+<pre><code>wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/chinayxc/System-installation-tool/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian 12 -pwd 'password' -port "SSHport" -partition "gpt" --fail2ban "1"</code></pre>
+If you don't know how to modify it, emmm, Okay, I'll set the default value for you. Don't blame me for not changing the default port password after installing the server,System debian12, SSH port 22, password 2sUROP * jv1IT * Ht6. It is recommended to modify your port and password after installation:
+<pre><code>wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/chinayxc/System-installation-tool/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian 12 -pwd '2sUROP*jv1IT*Ht6' --fail2ban "1"</code></pre>
+Change password command, different systems have different situations, default debian as an example:
+<pre><code>passwd root</code></pre>
+Modify SSH port,Edit Content # Port as Your Own Port Value,Afterwards, press Ctrl+X to save, and click Y/Enter to save according to the prompts:
+<pre><code>sudo nano /etc/ssh/sshd_config</code></pre>
 # Linux reinstall useage
 
 ![](https://raw.githubusercontent.com/leitbogioro/Tools/master/imgs/1.png)
