@@ -6,7 +6,7 @@ Something about scripts
 <li>Modify the default file format of the 924 line 937 line RAID array to XFS</li>
 </ul>
 
-## default usage methods Warning:Be sure to check that the spaces before and after the variable are a single space value, as multiple spaces may cause unknown errors
+## default usage methods (Warning:Be sure to check that the spaces before and after the variable are a single space value, as multiple spaces may cause unknown errors)
 Change the value inside the quotation marks to your own, pwd is the password, port is the ssh port, partition is the partition table selection, optional mbr or gpt:
 <pre><code>wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/chinayxc/System-installation-tool/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian 12 -pwd 'password' -port "SSHport" -partition "gpt" --fail2ban "1"</code></pre>
 If you don't know how to modify it, emmm, Okay, I'll set the default value for you. Don't blame me for not changing the default port password after installing the server,System debian12, SSH port 22, password 2sUROP * jv1IT * Ht6. It is recommended to modify your port and password after installation:
